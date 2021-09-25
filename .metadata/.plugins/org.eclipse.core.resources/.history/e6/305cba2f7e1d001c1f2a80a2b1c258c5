@@ -1,0 +1,16 @@
+/*
+ * CommunicationLinker.h
+ *
+ *  Created on: Sep 24, 2021
+ *      Author: LENOVO
+ */
+
+#ifndef COMMUNICATIONLINKER_H_
+#define COMMUNICATIONLINKER_H_
+
+typedef enum{
+	COMM_MASTER_MODE=1, COMM_SLAVE_MODE
+}CommLinker_ControllerModes;
+
+
+#endif /* COMMUNICATIONLINKER_H_ */

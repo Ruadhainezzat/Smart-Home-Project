@@ -1,0 +1,22 @@
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+#include "UART_interface.h"
+
+int main (){
+char data = 0;
+DDRC = 0xFF;
+DDRB = DDRB | (ONE<<4);
+DDRB = DDRB | (ONE<<5);
+DDRB = DDRB & ~(ONE<<6);
+DDRB = DDRB | (ONE<<7);
+while(1){
+	//USART_voidInit();
+	//data = USART_voidReceiveData();
+	SPI_voidInitialize(1);
+	data =  SPI_u8Transiver(0x55);
+	PORTC = data;
+}
+	return 0;
+}

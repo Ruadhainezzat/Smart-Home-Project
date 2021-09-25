@@ -1,0 +1,7 @@
+#ifndef UART_CONFIG_H_
+#define UART_CONFIG_H_
+
+#define USART_32_TRANSMISSION_TIMEOUT   	100000
+#define USART_32_RECIEVING_TIMEOUT      	200000
+
+#endif

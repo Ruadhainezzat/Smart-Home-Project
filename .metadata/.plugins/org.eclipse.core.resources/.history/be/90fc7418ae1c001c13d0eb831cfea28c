@@ -1,0 +1,53 @@
+
+
+#include "SPI_interface.h"
+#include "DIO_interface.h"
+#include "ACTUATOR_interface.h"
+#include <avr/io.h>
+int main (){
+unsigned char data = 0;
+DDRC = 0xFF;
+SS_PIN_DIRECTION_REGISTER = SS_PIN_DIRECTION_REGISTER & (~(ONE<<SS_PIN_NUMBER));
+MOSI_PIN_DIRECTION_REGISTER = MOSI_PIN_DIRECTION_REGISTER & (~(ONE<<MOSI_PIN_NUMBER));
+MISO_PIN_DIRECTION_REGISTER = MISO_PIN_DIRECTION_REGISTER | (ONE<<MISO_PIN_NUMBER);
+SCK_PIN_DIRECTION_REGISTER = SCK_PIN_DIRECTION_REGISTER & (~(ONE<<SCK_PIN_NUMBER));
+
+/*
+ * Init SPI Module as Slave
+ */
+SPI_voidInitialize(2);
+
+/*
+ * Set Actuator Config Struct
+ */
+Actuator_ConfigType ActuatorsChannels = {
+		DIO_u8_PORTA, DIO_u8_PIN6,
+		DIO_u8_PORTA, DIO_u8_PIN7
+};
+
+//Actuator_Init(&ActuatorsChannels);
+while(1){
+
+	data =  SPI_u8Transiver(0x55);
+	PORTC = data;
+	if(data == '1'){
+		Actuator_SetState(0, ACTUATOR_ON);
+		Actuator_SetState(1, ACTUATOR_OFF);
+		//PORTA =  (PORTA & 0x3F) | (1<<6);
+	}
+	else if(data == '2'){
+		Actuator_SetState(0, ACTUATOR_OFF);
+		Actuator_SetState(1, ACTUATOR_ON);
+		//PORTA =  (PORTA & 0x3F) | (2<<6);
+	}
+	else if(data == '3'){
+		Actuator_SetState(0, ACTUATOR_ON);
+		Actuator_SetState(1, ACTUATOR_ON);
+		//PORTA =  (PORTA & 0x3F) | (3<<6);
+	}
+	else{
+		/* No Action Required */
+	}
+}
+	return 0;
+}

@@ -1,0 +1,12 @@
+#ifndef UART_INTERFACE_H_
+#define UART_INTERFACE_H_
+
+void USART_voidInit (void);
+
+void UART_SendString(char *str);
+
+void USART_voidSendData(char Copy_u8Data);
+
+char USART_voidReceiveData(void);
+
+#endif

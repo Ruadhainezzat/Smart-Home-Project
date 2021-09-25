@@ -1,0 +1,21 @@
+/*
+ * ACTUATOR_interface.h
+ *
+ *  Created on: Sep 23, 2021
+ *      Author: LENOVO
+ */
+#include "STD_TYPES.h"
+#include "ACTUATOR_config.h"
+#ifndef ACTUATOR_INTERFACE_H_
+#define ACTUATOR_INTERFACE_H_
+
+
+typedef struct{
+	u8 actuatorPort;
+	u8 actuatorChannel;
+}Actuator_Config;
+
+typedef struct{
+	Actuator_Config Actuators[NUM_ACTUATORS_CONFIG];
+}Actuator_ConfigType;
+#endif /* ACTUATOR_INTERFACE_H_ */

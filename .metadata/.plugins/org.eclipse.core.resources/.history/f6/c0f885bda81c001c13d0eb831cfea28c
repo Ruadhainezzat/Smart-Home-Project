@@ -1,0 +1,15 @@
+/*
+ * ACTUATOR_PB.c
+ *
+ *  Created on: Sep 23, 2021
+ *      Author: LENOVO
+ */
+
+
+#include "ACTUATOR_interface.h"
+
+
+Actuator_ConfigType Actuator_Configuration = {
+		ACTUATOR_0_PORT, ACTUATOR_0_CHANNEL,
+		ACTUATOR_1_PORT, ACTUATOR_1_CHANNEL
+};

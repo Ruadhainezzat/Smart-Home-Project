@@ -1,0 +1,9 @@
+
+#ifndef ACTUATOR_CONFIG_H_
+#define ACTUATOR_CONFIG_H_
+
+
+#define NUM_ACTUATORS_CONFIG 2
+
+
+#endif /* ACTUATOR_CONFIG_H_ */

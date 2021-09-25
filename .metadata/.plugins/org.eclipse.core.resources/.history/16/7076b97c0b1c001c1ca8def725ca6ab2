@@ -1,0 +1,20 @@
+#ifndef ADC_PRIVATE_H_
+#define ADC_PRIVATE_H_
+
+#define IDLE	0
+#define BUSY	1
+
+#define PRESCALER_MASK		0b11111000
+#define CHANNEL_MASK		0b11100000
+
+
+#define DIVIDE_BY_128		7
+#define DIVIDE_BY_64		6
+
+#define EIGHT_BIT			1
+#define TEN_BIT				0
+
+#define SINGLE_CONVERSION	0
+#define CHAIN_CONVERSION	1
+
+#endif

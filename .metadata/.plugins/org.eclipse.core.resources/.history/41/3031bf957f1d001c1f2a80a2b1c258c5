@@ -1,0 +1,24 @@
+/*
+ * BluetoothModule.c
+ *
+ *  Created on: Sep 24, 2021
+ *      Author: LENOVO
+ */
+
+
+#include "UART_interface.h"
+#include "BluetoothModule.h"
+
+
+void BluetoothModule_Init(void){
+	USART_voidInit();
+}
+
+void BluetoothModule_SendData (u8 data){
+
+
+}
+
+u8 BluetoothModule_RecieveData(void){
+
+}

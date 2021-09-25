@@ -1,0 +1,6 @@
+#ifndef DAC_CONFIG_H_
+#define DAC_CONFIG_H_
+
+#define DAC_PORT       DIO_u8_PORTC
+
+#endif

@@ -1,0 +1,48 @@
+23:45:43 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../ACTUATOR_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ACTUATOR_program.d" -MT"ACTUATOR_program.o" -c -o "ACTUATOR_program.o" "../ACTUATOR_program.c"
+Finished building: ../ACTUATOR_program.c
+ 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:36: warning: missing braces around initializer
+../application.c:36: warning: (near initialization for 'ActuatorsChannels.Actuators')
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+23:45:45 Build Finished. 0 errors, 3 warnings. (took 1s.949ms)
+

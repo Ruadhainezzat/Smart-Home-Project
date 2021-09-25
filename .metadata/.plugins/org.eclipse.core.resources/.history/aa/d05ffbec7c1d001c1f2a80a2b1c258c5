@@ -1,0 +1,23 @@
+/*
+ * CommunicationLinker.c
+ *
+ *  Created on: Sep 24, 2021
+ *      Author: LENOVO
+ */
+
+
+#include "CommunicationLinker.h"
+
+void Comm_Init(u8 ControllerMode){
+
+	if(){
+
+	}
+	else if(){
+
+	}
+	else {
+		/* No Action Required */
+	}
+
+}

@@ -1,0 +1,21 @@
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+#include "SPI_interface.h"
+
+int main (){
+char data = 0;
+DDRC = 0xFF;
+
+USART_voidInit();
+SPI_voidInitialize(1);
+while(1){
+
+	data = USART_voidReceiveData();
+
+	data =  SPI_u8Transiver(data);
+	PORTC = data;
+}
+	return 0;
+}

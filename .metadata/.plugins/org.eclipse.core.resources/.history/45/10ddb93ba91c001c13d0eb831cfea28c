@@ -1,0 +1,14 @@
+/*
+ * ACTUATOR_program.c
+ *
+ *  Created on: Sep 23, 2021
+ *      Author: LENOVO
+ */
+
+#include "DIO_interface.h"
+
+void Actuator_Init(Actuator_ConfigType * Actuator_ConfigTypePtr){
+	u8 counter = 0;
+	/* Set Actuator Channel to output */
+
+}

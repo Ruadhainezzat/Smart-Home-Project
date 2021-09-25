@@ -1,0 +1,49 @@
+/******************************************************************************
+ * Module: Application
+ *
+ * File Name: application.c
+ *
+ * Description:  This file contains the source program for control MC
+ *
+ * Author: Rowan Ezzat
+ *
+ *******************************************************************************/
+#include "SPI_interface.h"
+#include "UART_interface.h"
+#include "STD_TYPES.h"
+
+int main() {
+	/*
+	 * Local variable to store the upcoming data
+	 */
+	u8 data = 0;
+
+	/*
+	 * Init Port Module
+	 */
+	PORT_voidInit();
+
+	/*
+	 * Init the USART Module
+	 */
+	USART_voidInit();
+
+	/*
+	 * Init the SPI Module as Master
+	 */
+	Comm_Init(COMM_SLAVE_MODE);
+
+	while (1) {
+
+		/*
+		 * Recieve the data from the bluetooth module via USART
+		 */
+		data = USART_voidReceiveData();
+		/*
+		 * Send the data to the sink MC via InterCommunication Link
+		 */
+		data = Comm_SendData(data);
+
+	}
+	return 0;
+}

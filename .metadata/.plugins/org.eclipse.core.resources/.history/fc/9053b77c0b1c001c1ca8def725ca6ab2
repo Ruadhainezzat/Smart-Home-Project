@@ -1,0 +1,20 @@
+#ifndef ADC_INTERFACE_H_
+#define ADC_INTERFACE_H_
+
+typedef struct
+{
+	u8* ChannelArr;
+	u8 ChainSize;
+	u16* ResultArr;
+	void (*NotificationFunc)(void);
+}ADC_ChainConfig_t;
+
+void ADC_voidInit(void);
+
+u8 ADC_u8StartSingleConversionSynch(u8 Copy_u8Channel, u16* Copy_pu16Result);
+
+u8 ADC_u8StartSingleConversionAsynch(u8 Copy_u8Channel, u16* Copy_pu16Result, void (*Copy_pvNotificationFunc)(void));
+
+u8 ADC_u8StartChainConversionAsynch(ADC_ChainConfig_t* Copy_Chain);
+
+#endif

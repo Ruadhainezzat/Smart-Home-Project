@@ -1,0 +1,3585 @@
+03:36:01 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../UART_interface.h:8: error: expected ')' before 'Copy_u8Data'
+../UART_interface.h:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'USART_voidReceiveData'
+../application.c: In function 'main':
+../application.c:8: error: 'u8' undeclared (first use in this function)
+../application.c:8: error: (Each undeclared identifier is reported only once
+../application.c:8: error: for each function it appears in.)
+../application.c:8: error: expected ';' before 'data'
+../application.c:12: error: 'data' undeclared (first use in this function)
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:36:37 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../UART_interface.h:8: error: expected ')' before 'Copy_u8Data'
+../UART_interface.h:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'USART_voidReceiveData'
+../application.c: In function 'main':
+../application.c:8: error: 'u8' undeclared (first use in this function)
+../application.c:8: error: (Each undeclared identifier is reported only once
+../application.c:8: error: for each function it appears in.)
+../application.c:8: error: expected ';' before 'data'
+../application.c:12: error: 'data' undeclared (first use in this function)
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:36:38 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:36:49 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../UART_interface.h:8: error: expected ')' before 'Copy_u8Data'
+../UART_interface.h:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'USART_voidReceiveData'
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:36:50 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:39:35 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../UART_interface.h:8: error: expected ')' before 'Copy_u8Data'
+../UART_interface.h:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'USART_voidReceiveData'
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:39:36 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:40:07 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+../UART_program.c:38: error: conflicting types for 'USART_voidSendData'
+../UART_interface.h:8: error: previous declaration of 'USART_voidSendData' was here
+../UART_program.c:47: error: conflicting types for 'USART_voidReceiveData'
+../UART_interface.h:10: error: previous declaration of 'USART_voidReceiveData' was here
+make: *** [UART_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:40:08 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:40:34 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../UART_interface.h:8: error: expected ')' before 'Copy_u8Data'
+../UART_interface.h:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'USART_voidReceiveData'
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:40:35 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:41:42 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../UART_interface.h:8: warning: parameter names (without types) in function declaration
+../UART_interface.h:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'USART_voidReceiveData'
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:41:44 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:42:15 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+../UART_program.c: In function 'UART_SendString':
+../UART_program.c:33: warning: implicit declaration of function 'USART_voidSendData'
+../UART_program.c: At top level:
+../UART_program.c:38: warning: conflicting types for 'USART_voidSendData'
+../UART_program.c:33: warning: previous implicit declaration of 'USART_voidSendData' was here
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4482 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:42:17 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:42:24 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4482 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:42:25 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:44:52 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4484 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:44:54 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:47:26 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'USART_voidReceiveData'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4482 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:47:28 **** Incremental Build of configuration Debug for project asa ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 asa.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     122 bytes (0.7% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:15:43 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:13: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:14: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4490 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:15:44 **** Clean-only build of configuration Debug for project Sink_MC ****
+make clean 
+rm -rf  ./asaaa.o  sizedummy  asa.lss  ./asaaa.d  asa.elf
+ 
+04:15:45 **** Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../SPI_interface.h:4: error: expected ')' before 'Copy_u8Role'
+../SPI_interface.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'SPI_u8Transiver'
+../application.c: In function 'main':
+../application.c:13: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:14: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:16:09 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4490 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:16:10 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:13: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:14: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4486 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:22:02 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:10: error: 'SS_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:10: error: (Each undeclared identifier is reported only once
+../application.c:10: error: for each function it appears in.)
+../application.c:10: error: 'ONE' undeclared (first use in this function)
+../application.c:10: error: 'SS_PIN_NUMBER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_NUMBER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_NUMBER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_NUMBER' undeclared (first use in this function)
+../application.c:17: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:18: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:22:03 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4486 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:23:24 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../SPI_interface.h:4: error: expected ')' before 'Copy_u8Role'
+../SPI_interface.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'SPI_u8Transiver'
+../application.c: In function 'main':
+../application.c:10: error: 'SS_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:10: error: (Each undeclared identifier is reported only once
+../application.c:10: error: for each function it appears in.)
+../application.c:10: error: 'ONE' undeclared (first use in this function)
+../application.c:10: error: 'SS_PIN_NUMBER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_NUMBER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_NUMBER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_NUMBER' undeclared (first use in this function)
+../application.c:17: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:18: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:23:25 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4486 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:23:49 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../application.c:5:
+../SPI_interface.h:4: error: expected ')' before 'Copy_u8Role'
+../SPI_interface.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'SPI_u8Transiver'
+../application.c: In function 'main':
+../application.c:10: error: 'SS_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:10: error: (Each undeclared identifier is reported only once
+../application.c:10: error: for each function it appears in.)
+../application.c:10: error: 'ONE' undeclared (first use in this function)
+../application.c:10: error: 'SS_PIN_NUMBER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_NUMBER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_NUMBER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_NUMBER' undeclared (first use in this function)
+../application.c:17: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:18: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:23:50 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:13: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:14: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4486 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:24:36 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:17: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:18: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4546 bytes (27.7% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:24:38 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:18: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:19: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4542 bytes (27.7% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:25:02 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4546 bytes (27.7% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:25:02 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:18: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:19: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4542 bytes (27.7% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:44:00 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:14: warning: implicit declaration of function 'USART_voidInit'
+../application.c:15: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:18: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:20: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4558 bytes (27.8% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:44:01 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:20: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4618 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:10:46 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'SPI_voidInitialize':
+../SPI_program.c:21: error: 'DDRB' undeclared (first use in this function)
+../SPI_program.c:21: error: (Each undeclared identifier is reported only once
+../SPI_program.c:21: error: for each function it appears in.)
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:10:48 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4618 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:12:55 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'SPI_voidInitialize':
+../SPI_program.c:21: warning: implicit declaration of function 'DIO_u8SetPinDirection'
+../SPI_program.c:21: error: 'Copy_u8Port' undeclared (first use in this function)
+../SPI_program.c:21: error: (Each undeclared identifier is reported only once
+../SPI_program.c:21: error: for each function it appears in.)
+../SPI_program.c:21: error: 'Copy_u8Pin' undeclared (first use in this function)
+../SPI_program.c:21: error: 'Copy_u8Direction' undeclared (first use in this function)
+../SPI_program.c:22: error: expected ';' before 'DIO_u8_PORTB'
+../SPI_program.c:23: error: 'DIO_u8_PORTB' undeclared (first use in this function)
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:12:56 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4618 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:13:24 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'SPI_voidInitialize':
+../SPI_program.c:21: error: 'Copy_u8Port' undeclared (first use in this function)
+../SPI_program.c:21: error: (Each undeclared identifier is reported only once
+../SPI_program.c:21: error: for each function it appears in.)
+../SPI_program.c:21: error: 'Copy_u8Pin' undeclared (first use in this function)
+../SPI_program.c:21: error: 'Copy_u8Direction' undeclared (first use in this function)
+../SPI_program.c:22: error: lvalue required as left operand of assignment
+../SPI_program.c:23: error: lvalue required as left operand of assignment
+../SPI_program.c:24: error: lvalue required as left operand of assignment
+../SPI_program.c:25: error: lvalue required as left operand of assignment
+../SPI_program.c:30: error: lvalue required as left operand of assignment
+../SPI_program.c:31: error: lvalue required as left operand of assignment
+../SPI_program.c:32: error: lvalue required as left operand of assignment
+../SPI_program.c:33: error: lvalue required as left operand of assignment
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:13:25 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4618 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:13:38 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'SPI_voidInitialize':
+../SPI_program.c:21: error: 'Copy_u8Port' undeclared (first use in this function)
+../SPI_program.c:21: error: (Each undeclared identifier is reported only once
+../SPI_program.c:21: error: for each function it appears in.)
+../SPI_program.c:21: error: 'Copy_u8Pin' undeclared (first use in this function)
+../SPI_program.c:21: error: 'Copy_u8Direction' undeclared (first use in this function)
+../SPI_program.c:23: error: lvalue required as left operand of assignment
+../SPI_program.c:31: error: lvalue required as left operand of assignment
+../SPI_program.c:32: error: lvalue required as left operand of assignment
+../SPI_program.c:33: error: lvalue required as left operand of assignment
+../SPI_program.c:34: error: lvalue required as left operand of assignment
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:13:39 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4618 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:15:05 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'SPI_voidInitialize':
+../SPI_program.c:23: error: lvalue required as left operand of assignment
+../SPI_program.c:31: error: lvalue required as left operand of assignment
+../SPI_program.c:32: error: lvalue required as left operand of assignment
+../SPI_program.c:33: error: lvalue required as left operand of assignment
+../SPI_program.c:34: error: lvalue required as left operand of assignment
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:15:05 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4618 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:16:17 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'SPI_voidInitialize':
+../SPI_program.c:30: error: lvalue required as left operand of assignment
+../SPI_program.c:31: error: lvalue required as left operand of assignment
+../SPI_program.c:32: error: lvalue required as left operand of assignment
+../SPI_program.c:33: error: lvalue required as left operand of assignment
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:16:17 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4618 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:17:32 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+../UART_program.c: In function 'UART_SendString':
+../UART_program.c:33: warning: implicit declaration of function 'USART_voidSendData'
+../UART_program.c: At top level:
+../UART_program.c:38: warning: conflicting types for 'USART_voidSendData'
+../UART_program.c:33: warning: previous implicit declaration of 'USART_voidSendData' was here
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:11: warning: implicit declaration of function 'USART_voidInit'
+../application.c:12: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:15: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:17: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4596 bytes (28.1% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:17:34 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:16: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:17: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4562 bytes (27.8% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:31:35 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:13: warning: implicit declaration of function 'USART_voidInit'
+../application.c:17: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:23: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:27: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4580 bytes (28.0% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:31:37 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:15: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:16: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4656 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:31:57 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c:3:29: error: USART_interface.h: No such file or directory
+../application.c: In function 'main':
+../application.c:14: warning: implicit declaration of function 'USART_voidInit'
+../application.c:18: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:24: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:28: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+21:31:58 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4656 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:32:09 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:18: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:24: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:28: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4580 bytes (28.0% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:32:11 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4656 bytes (28.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:58:40 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4580 bytes (28.0% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:58:41 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../ACTUATOR_PB.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ACTUATOR_PB.d" -MT"ACTUATOR_PB.o" -c -o "ACTUATOR_PB.o" "../ACTUATOR_PB.c"
+../ACTUATOR_PB.c:13: error: 'DIO_u8_PORTA' undeclared here (not in a function)
+../ACTUATOR_PB.c:13: error: 'DIO_u8_PIN6' undeclared here (not in a function)
+../ACTUATOR_PB.c:13: warning: excess elements in struct initializer
+../ACTUATOR_PB.c:13: warning: (near initialization for 'Actuator_Configuration')
+../ACTUATOR_PB.c:14: warning: excess elements in struct initializer
+../ACTUATOR_PB.c:14: warning: (near initialization for 'Actuator_Configuration')
+../ACTUATOR_PB.c:14: error: 'DIO_u8_PIN7' undeclared here (not in a function)
+../ACTUATOR_PB.c:15: warning: excess elements in struct initializer
+../ACTUATOR_PB.c:15: warning: (near initialization for 'Actuator_Configuration')
+make: *** [ACTUATOR_PB.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:13:15 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4580 bytes (28.0% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:13:15 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../ACTUATOR_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ACTUATOR_program.d" -MT"ACTUATOR_program.o" -c -o "ACTUATOR_program.o" "../ACTUATOR_program.c"
+Finished building: ../ACTUATOR_program.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:4:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../application.c: In function 'main':
+../application.c:15: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:16: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4796 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:22:53 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4580 bytes (28.0% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:22:54 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../ACTUATOR_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ACTUATOR_program.d" -MT"ACTUATOR_program.o" -c -o "ACTUATOR_program.o" "../ACTUATOR_program.c"
+Finished building: ../ACTUATOR_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:18: warning: missing braces around initializer
+../application.c:18: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:23: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:25: warning: implicit declaration of function 'Actuator_SetState'
+../application.c:17: warning: unused variable 'ActuatorsChannels'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4876 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:23:45 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4580 bytes (28.0% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:23:45 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:12: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:18: warning: missing braces around initializer
+../application.c:18: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:22: warning: implicit declaration of function 'Actuator_Init'
+../application.c:25: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:27: warning: implicit declaration of function 'Actuator_SetState'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4884 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:26:01 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4580 bytes (28.0% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:26:01 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:13: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:19: warning: missing braces around initializer
+../application.c:19: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:23: warning: implicit declaration of function 'Actuator_Init'
+../application.c:26: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:29: warning: implicit declaration of function 'Actuator_SetState'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4900 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:27:58 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:25: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:30: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4596 bytes (28.1% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:00 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4900 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:34:32 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:30: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:35: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4572 bytes (27.9% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:34:34 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4900 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:35:43 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:32: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:37: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4572 bytes (27.9% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:35:45 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'SPI_voidInitialize':
+../SPI_program.c:21: error: 'DDRB' undeclared (first use in this function)
+../SPI_program.c:21: error: (Each undeclared identifier is reported only once
+../SPI_program.c:21: error: for each function it appears in.)
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:36:09 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4572 bytes (27.9% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:36:10 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:18: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:24: warning: missing braces around initializer
+../application.c:24: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:28: warning: implicit declaration of function 'Actuator_Init'
+../application.c:31: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:34: warning: implicit declaration of function 'Actuator_SetState'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4876 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:37:49 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4572 bytes (27.9% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:37:50 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:18: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:24: warning: missing braces around initializer
+../application.c:24: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:31: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:23: warning: unused variable 'ActuatorsChannels'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4774 bytes (29.1% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:39:24 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:2:
+../SPI_interface.h:4: error: expected ')' before 'Copy_u8Role'
+../SPI_interface.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'SPI_u8Transiver'
+../application.c: In function 'main':
+../application.c:19: error: 'SS_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:19: error: (Each undeclared identifier is reported only once
+../application.c:19: error: for each function it appears in.)
+../application.c:19: error: 'ONE' undeclared (first use in this function)
+../application.c:19: error: 'SS_PIN_NUMBER' undeclared (first use in this function)
+../application.c:20: error: 'MOSI_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:20: error: 'MOSI_PIN_NUMBER' undeclared (first use in this function)
+../application.c:21: error: 'MISO_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:21: error: 'MISO_PIN_NUMBER' undeclared (first use in this function)
+../application.c:22: error: 'SCK_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:22: error: 'SCK_PIN_NUMBER' undeclared (first use in this function)
+../application.c:24: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:32: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:37: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:39:25 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:3:
+../SPI_interface.h:4: error: expected ')' before 'Copy_u8Role'
+../SPI_interface.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'SPI_u8Transiver'
+../application.c: In function 'main':
+../application.c:10: error: 'SS_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:10: error: (Each undeclared identifier is reported only once
+../application.c:10: error: for each function it appears in.)
+../application.c:10: error: 'ONE' undeclared (first use in this function)
+../application.c:10: error: 'SS_PIN_NUMBER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:11: error: 'MOSI_PIN_NUMBER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:12: error: 'MISO_PIN_NUMBER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_DIRECTION_REGISTER' undeclared (first use in this function)
+../application.c:13: error: 'SCK_PIN_NUMBER' undeclared (first use in this function)
+../application.c:18: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:24: warning: missing braces around initializer
+../application.c:24: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:31: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:23: warning: unused variable 'ActuatorsChannels'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:41:36 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:2:
+../SPI_interface.h:4: error: expected ')' before 'Copy_u8Role'
+../SPI_interface.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'SPI_u8Transiver'
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:33: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:38: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:41:37 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+In file included from ../application.c:3:
+../SPI_interface.h:4: error: expected ')' before 'Copy_u8Role'
+../SPI_interface.h:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'SPI_u8Transiver'
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:25: warning: missing braces around initializer
+../application.c:25: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:32: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:24: warning: unused variable 'ActuatorsChannels'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:42:02 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:33: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:38: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4510 bytes (27.5% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:42:04 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:25: warning: missing braces around initializer
+../application.c:25: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:32: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:24: warning: unused variable 'ActuatorsChannels'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4712 bytes (28.8% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:42:38 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4510 bytes (27.5% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:42:39 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:25: warning: missing braces around initializer
+../application.c:25: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:29: warning: implicit declaration of function 'Actuator_Init'
+../application.c:32: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:35: warning: implicit declaration of function 'Actuator_SetState'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4814 bytes (29.4% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:44:07 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4510 bytes (27.5% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:44:08 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:25: warning: missing braces around initializer
+../application.c:25: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:29: warning: implicit declaration of function 'Actuator_Init'
+../application.c:32: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:35: warning: implicit declaration of function 'Actuator_SetState'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4846 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:48:06 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4512 bytes (27.5% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:48:07 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:25: warning: missing braces around initializer
+../application.c:25: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:29: warning: implicit declaration of function 'Actuator_Init'
+../application.c:32: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:36: warning: implicit declaration of function 'Actuator_SetState'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4848 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:48:53 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:20: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:26: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:34: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:39: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4508 bytes (27.5% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:48:55 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:10: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:19: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:25: warning: missing braces around initializer
+../application.c:25: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:29: warning: implicit declaration of function 'Actuator_Init'
+../application.c:32: warning: implicit declaration of function 'SPI_u8Transiver'
+../application.c:36: warning: implicit declaration of function 'Actuator_SetState'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4844 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:54:12 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4508 bytes (27.5% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:54:12 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../ACTUATOR_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ACTUATOR_program.d" -MT"ACTUATOR_program.o" -c -o "ACTUATOR_program.o" "../ACTUATOR_program.c"
+Finished building: ../ACTUATOR_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:15: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:20: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:26: warning: missing braces around initializer
+../application.c:26: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:41: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4796 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:56:18 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:28: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:34: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:42: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:43: error: 'PORTC' undeclared (first use in this function)
+../application.c:43: error: (Each undeclared identifier is reported only once
+../application.c:43: error: for each function it appears in.)
+../application.c:47: warning: implicit declaration of function 'SPI_u8Transiver'
+make: *** [application.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:56:18 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:26: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:31: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:37: warning: missing braces around initializer
+../application.c:37: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:52: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4796 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:57:01 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:28: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:34: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:42: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:46: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:57:02 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:30: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:36: warning: missing braces around initializer
+../application.c:36: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:51: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4796 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:58:17 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:23: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:33: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:40: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:44: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:58:18 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4796 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:23:44 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+../UART_program.c: In function 'UART_SendString':
+../UART_program.c:33: warning: implicit declaration of function 'USART_voidSendData'
+../UART_program.c: At top level:
+../UART_program.c:38: warning: conflicting types for 'USART_voidSendData'
+../UART_program.c:33: warning: previous implicit declaration of 'USART_voidSendData' was here
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:34: warning: implicit declaration of function 'SPI_voidInitialize'
+../application.c:41: warning: implicit declaration of function 'USART_voidReceiveData'
+../application.c:45: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:23:50 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../ACTUATOR_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ACTUATOR_program.d" -MT"ACTUATOR_program.o" -c -o "ACTUATOR_program.o" "../ACTUATOR_program.c"
+Finished building: ../ACTUATOR_program.c
+ 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+In file included from ../CommunicationLinker.c:9:
+../CommunicationLinker.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Comm_SendData'
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:14: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: At top level:
+../CommunicationLinker.c:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Comm_SendData'
+make: *** [CommunicationLinker.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:24:37 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:24:38 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+In file included from ../CommunicationLinker.c:9:
+../CommunicationLinker.h:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Comm_SendData'
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:15: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: At top level:
+../CommunicationLinker.c:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Comm_SendData'
+make: *** [CommunicationLinker.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:25:17 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:25:17 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:15: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: At top level:
+../CommunicationLinker.c:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Comm_SendData'
+make: *** [CommunicationLinker.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:25:58 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:25:59 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:15: warning: implicit declaration of function 'SPI_voidInitialize'
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:30: warning: implicit declaration of function 'Comm_Init'
+../application.c:36: warning: missing braces around initializer
+../application.c:36: warning: (near initialization for 'ActuatorsChannels.Actuators')
+../application.c:51: warning: implicit declaration of function 'Comm_SendData'
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+./application.o: In function `main':
+../application.c:51: undefined reference to `Comm_SendData'
+make: *** [Sink_MC.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:26:26 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:26:27 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:15: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: At top level:
+../CommunicationLinker.c:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Comm_SendData'
+make: *** [CommunicationLinker.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:27:02 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:27:03 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:16: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: In function 'Comm_SendData':
+../CommunicationLinker.c:28: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../CommunicationLinker.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4880 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:27:41 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4492 bytes (27.4% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:27:42 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:16: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: In function 'Comm_SendData':
+../CommunicationLinker.c:28: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:36: warning: missing braces around initializer
+../application.c:36: warning: (near initialization for 'ActuatorsChannels.Actuators')
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4876 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:32:04 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:16: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: In function 'Comm_SendData':
+../CommunicationLinker.c:28: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+../UART_program.c: In function 'UART_SendString':
+../UART_program.c:33: warning: implicit declaration of function 'USART_voidSendData'
+../UART_program.c: At top level:
+../UART_program.c:38: warning: conflicting types for 'USART_voidSendData'
+../UART_program.c:33: warning: previous implicit declaration of 'USART_voidSendData' was here
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:41: warning: implicit declaration of function 'USART_voidReceiveData'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4570 bytes (27.9% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:32:08 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:36: warning: missing braces around initializer
+../application.c:36: warning: (near initialization for 'ActuatorsChannels.Actuators')
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:37:17 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../BluetoothModule.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BluetoothModule.d" -MT"BluetoothModule.o" -c -o "BluetoothModule.o" "../BluetoothModule.c"
+../BluetoothModule.c:17: error: expected ')' before 'data'
+../BluetoothModule.c:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'BluetoothModule_RecieveData'
+make: *** [BluetoothModule.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:37:18 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:37:50 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../BluetoothModule.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BluetoothModule.d" -MT"BluetoothModule.o" -c -o "BluetoothModule.o" "../BluetoothModule.c"
+../BluetoothModule.c:17: error: expected ')' before 'data'
+../BluetoothModule.c:22: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'BluetoothModule_RecieveData'
+make: *** [BluetoothModule.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:37:51 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:38:05 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../BluetoothModule.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BluetoothModule.d" -MT"BluetoothModule.o" -c -o "BluetoothModule.o" "../BluetoothModule.c"
+../BluetoothModule.c: In function 'BluetoothModule_SendData':
+../BluetoothModule.c:19: warning: implicit declaration of function 'USART_voidSendData'
+../BluetoothModule.c: In function 'BluetoothModule_RecieveData':
+../BluetoothModule.c:23: warning: implicit declaration of function 'USART_voidReceiveData'
+Finished building: ../BluetoothModule.c
+ 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:16: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: In function 'Comm_SendData':
+../CommunicationLinker.c:28: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+../UART_program.c: In function 'UART_SendString':
+../UART_program.c:33: warning: implicit declaration of function 'USART_voidSendData'
+../UART_program.c: At top level:
+../UART_program.c:38: warning: conflicting types for 'USART_voidSendData'
+../UART_program.c:33: warning: previous implicit declaration of 'USART_voidSendData' was here
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:41: warning: implicit declaration of function 'USART_voidReceiveData'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./BluetoothModule.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4636 bytes (28.3% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:38:09 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:38:29 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../BluetoothModule.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BluetoothModule.d" -MT"BluetoothModule.o" -c -o "BluetoothModule.o" "../BluetoothModule.c"
+Finished building: ../BluetoothModule.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'PORT_voidInit'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./BluetoothModule.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4628 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:38:31 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:39:51 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../BluetoothModule.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BluetoothModule.d" -MT"BluetoothModule.o" -c -o "BluetoothModule.o" "../BluetoothModule.c"
+Finished building: ../BluetoothModule.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'PORT_voidInit'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./BluetoothModule.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4628 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:39:52 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:45:34 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../BluetoothModule.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BluetoothModule.d" -MT"BluetoothModule.o" -c -o "BluetoothModule.o" "../BluetoothModule.c"
+Finished building: ../BluetoothModule.c
+ 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:10: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: In function 'Comm_SendData':
+../CommunicationLinker.c:22: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'PORT_voidInit'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./BluetoothModule.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4628 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:45:43 **** Incremental Build of configuration Debug for project Sink_MC ****
+make all 
+Building file: ../ACTUATOR_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"ACTUATOR_program.d" -MT"ACTUATOR_program.o" -c -o "ACTUATOR_program.o" "../ACTUATOR_program.c"
+Finished building: ../ACTUATOR_program.c
+ 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:25: warning: implicit declaration of function 'PORT_voidInit'
+../application.c:36: warning: missing braces around initializer
+../application.c:36: warning: (near initialization for 'ActuatorsChannels.Actuators')
+Finished building: ../application.c
+ 
+Building target: Sink_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Sink_MC.map -mmcu=atmega16 -o "Sink_MC.elf"  ./ACTUATOR_program.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Sink_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Sink_MC.elf  >"Sink_MC.lss"
+Finished building: Sink_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Sink_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4864 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:         27 bytes (2.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

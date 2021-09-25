@@ -1,0 +1,13 @@
+/*
+ * BluetoothModule.h
+ *
+ *  Created on: Sep 24, 2021
+ *      Author: LENOVO
+ */
+
+#ifndef BLUETOOTHMODULE_H_
+#define BLUETOOTHMODULE_H_
+
+#include "STD_TYPES.h"
+
+#endif /* BLUETOOTHMODULE_H_ */

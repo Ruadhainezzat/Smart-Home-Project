@@ -1,0 +1,9 @@
+/*
+ * BluetoothModule.c
+ *
+ *  Created on: Sep 24, 2021
+ *      Author: LENOVO
+ */
+
+
+#include "UART_interface.h"

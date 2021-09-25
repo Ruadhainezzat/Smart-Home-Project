@@ -1,0 +1,20 @@
+#ifndef SPI_INTERFACE_H_
+#define SPI_INTERFACE_H_
+
+#define ONE 1
+
+#define SS_PIN_DIRECTION_REGISTER DDRB
+#define MOSI_PIN_DIRECTION_REGISTER DDRB
+#define MISO_PIN_DIRECTION_REGISTER DDRB
+#define SCK_PIN_DIRECTION_REGISTER DDRB
+
+#define SS_PIN_NUMBER 4
+#define MOSI_PIN_NUMBER 5
+#define MISO_PIN_NUMBER 6
+#define SCK_PIN_NUMBER 7
+
+//void SPI_voidInitialize(u8 Copy_u8Role);
+//
+//u8 SPI_u8Transiver(u8 Copy_u8Data);
+
+#endif

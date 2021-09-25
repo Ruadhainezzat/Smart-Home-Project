@@ -1,0 +1,17 @@
+/*
+ * ACTUATOR_interface.h
+ *
+ *  Created on: Sep 23, 2021
+ *      Author: LENOVO
+ */
+#include "STD_TYPES.h"
+#ifndef ACTUATOR_INTERFACE_H_
+#define ACTUATOR_INTERFACE_H_
+
+
+typedef struct{
+	u
+}Actuator_Config;
+
+
+#endif /* ACTUATOR_INTERFACE_H_ */

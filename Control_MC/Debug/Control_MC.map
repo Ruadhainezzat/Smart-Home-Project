@@ -1,0 +1,522 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./EXTI_program.o (__do_clear_bss)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+LOAD ./BluetoothModule.o
+LOAD ./CommunicationLinker.o
+LOAD ./DIO_program.o
+LOAD ./EXTI_program.o
+LOAD ./GIE_program.o
+LOAD ./PORT_program.o
+LOAD ./SPI_program.o
+LOAD ./TIMERS_program.o
+LOAD ./UART_program.o
+LOAD ./application.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1214
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000060                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000070        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+ *(.init9)
+ *(.text)
+ .text          0x00000078        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+                0x00000078                __vector_12
+                0x00000078                __bad_interrupt
+                0x00000078                __vector_6
+                0x00000078                __vector_13
+                0x00000078                __vector_17
+                0x00000078                __vector_19
+                0x00000078                __vector_7
+                0x00000078                __vector_5
+                0x00000078                __vector_4
+                0x00000078                __vector_15
+                0x00000078                __vector_8
+                0x00000078                __vector_14
+                0x00000078                __vector_10
+                0x00000078                __vector_16
+                0x00000078                __vector_18
+                0x00000078                __vector_20
+ .text          0x0000007c        0x0 ./BluetoothModule.o
+ .text          0x0000007c        0x0 ./CommunicationLinker.o
+ .text          0x0000007c        0x0 ./DIO_program.o
+ .text          0x0000007c        0x0 ./EXTI_program.o
+ .text          0x0000007c        0x0 ./GIE_program.o
+ .text          0x0000007c        0x0 ./PORT_program.o
+ .text          0x0000007c        0x0 ./SPI_program.o
+ .text          0x0000007c        0x0 ./TIMERS_program.o
+ .text          0x0000007c        0x0 ./UART_program.o
+ .text          0x0000007c        0x0 ./application.o
+ .text          0x0000007c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x0000007c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x0000007c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.BluetoothModule_Init
+                0x0000007c       0x12 ./BluetoothModule.o
+                0x0000007c                BluetoothModule_Init
+ .text.BluetoothModule_SendData
+                0x0000008e       0x1a ./BluetoothModule.o
+                0x0000008e                BluetoothModule_SendData
+ .text.BluetoothModule_RecieveData
+                0x000000a8       0x12 ./BluetoothModule.o
+                0x000000a8                BluetoothModule_RecieveData
+ .text.Comm_Init
+                0x000000ba       0x36 ./CommunicationLinker.o
+                0x000000ba                Comm_Init
+ .text.Comm_SendData
+                0x000000f0       0x1e ./CommunicationLinker.o
+                0x000000f0                Comm_SendData
+ .text.DIO_u8SetPinDirection
+                0x0000010e      0x21e ./DIO_program.o
+                0x0000010e                DIO_u8SetPinDirection
+ .text.DIO_u8SetPortDirection
+                0x0000032c       0x90 ./DIO_program.o
+                0x0000032c                DIO_u8SetPortDirection
+ .text.DIO_u8SetPinValue
+                0x000003bc      0x218 ./DIO_program.o
+                0x000003bc                DIO_u8SetPinValue
+ .text.DIO_u8SetPortValue
+                0x000005d4       0x90 ./DIO_program.o
+                0x000005d4                DIO_u8SetPortValue
+ .text.DIO_u8ReadPinValue
+                0x00000664      0x130 ./DIO_program.o
+                0x00000664                DIO_u8ReadPinValue
+ .text.DIO_u8TogglePinVlaue
+                0x00000794      0x112 ./DIO_program.o
+                0x00000794                DIO_u8TogglePinVlaue
+ .text.EXTI_voidINT0Init
+                0x000008a6       0x38 ./EXTI_program.o
+                0x000008a6                EXTI_voidINT0Init
+ .text.EXTI_voidINT1Init
+                0x000008de       0x38 ./EXTI_program.o
+                0x000008de                EXTI_voidINT1Init
+ .text.EXTI_voidINT2Init
+                0x00000916       0x2a ./EXTI_program.o
+                0x00000916                EXTI_voidINT2Init
+ .text.EXTI_u8SetSenseControl
+                0x00000940      0x1ae ./EXTI_program.o
+                0x00000940                EXTI_u8SetSenseControl
+ .text.EXTI_u8EnableInt
+                0x00000aee       0x7a ./EXTI_program.o
+                0x00000aee                EXTI_u8EnableInt
+ .text.EXTI_u8DisableInt
+                0x00000b68       0x7a ./EXTI_program.o
+                0x00000b68                EXTI_u8DisableInt
+ .text.EXTI_u8SetCallBack
+                0x00000be2       0x4c ./EXTI_program.o
+                0x00000be2                EXTI_u8SetCallBack
+ .text.__vector_1
+                0x00000c2e       0x66 ./EXTI_program.o
+                0x00000c2e                __vector_1
+ .text.__vector_2
+                0x00000c94       0x66 ./EXTI_program.o
+                0x00000c94                __vector_2
+ .text.__vector_3
+                0x00000cfa       0x66 ./EXTI_program.o
+                0x00000cfa                __vector_3
+ .text.GIE_voidEnableGlobal
+                0x00000d60       0x1c ./GIE_program.o
+                0x00000d60                GIE_voidEnableGlobal
+ .text.GIE_voidDisableGlobal
+                0x00000d7c       0x1c ./GIE_program.o
+                0x00000d7c                GIE_voidDisableGlobal
+ .text.PORT_voidInit
+                0x00000d98       0x40 ./PORT_program.o
+                0x00000d98                PORT_voidInit
+ .text.SPI_voidInitialize
+                0x00000dd8       0x76 ./SPI_program.o
+                0x00000dd8                SPI_voidInitialize
+ .text.SPI_u8Transiver
+                0x00000e4e       0x2c ./SPI_program.o
+                0x00000e4e                SPI_u8Transiver
+ .text.Timer0_voidInit
+                0x00000e7a       0x5c ./TIMERS_program.o
+                0x00000e7a                Timer0_voidInit
+ .text.Timer0_voidSetPreloadValue
+                0x00000ed6       0x1c ./TIMERS_program.o
+                0x00000ed6                Timer0_voidSetPreloadValue
+ .text.Timer0_u8ovSetCallback
+                0x00000ef2       0x3c ./TIMERS_program.o
+                0x00000ef2                Timer0_u8ovSetCallback
+ .text.__vector_11
+                0x00000f2e       0x66 ./TIMERS_program.o
+                0x00000f2e                __vector_11
+ .text.Timer1_voidInit
+                0x00000f94       0x8a ./TIMERS_program.o
+                0x00000f94                Timer1_voidInit
+ .text.Timer1_voidInitNormalMode
+                0x0000101e       0x62 ./TIMERS_program.o
+                0x0000101e                Timer1_voidInitNormalMode
+ .text.Timer1_voidSetCompareValue
+                0x00001080       0x24 ./TIMERS_program.o
+                0x00001080                Timer1_voidSetCompareValue
+ .text.__vector_9
+                0x000010a4       0x56 ./TIMERS_program.o
+                0x000010a4                __vector_9
+ .text.USART_voidInit
+                0x000010fa       0x48 ./UART_program.o
+                0x000010fa                USART_voidInit
+ .text.UART_SendString
+                0x00001142       0x52 ./UART_program.o
+                0x00001142                UART_SendString
+ .text.USART_voidSendData
+                0x00001194       0x34 ./UART_program.o
+                0x00001194                USART_voidSendData
+ .text.USART_voidReceiveData
+                0x000011c8       0x1e ./UART_program.o
+                0x000011c8                USART_voidReceiveData
+ .text.main     0x000011e6       0x2a ./application.o
+                0x000011e6                main
+ .text.libgcc   0x00001210        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00001210        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00001210                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001210        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00001210                exit
+                0x00001210                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001210        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001214                _etext = .
+
+.data           0x00800060        0x0 load address 0x00001214
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+ .data          0x00800060        0x0 ./BluetoothModule.o
+ .data          0x00800060        0x0 ./CommunicationLinker.o
+ .data          0x00800060        0x0 ./DIO_program.o
+ .data          0x00800060        0x0 ./EXTI_program.o
+ .data          0x00800060        0x0 ./GIE_program.o
+ .data          0x00800060        0x0 ./PORT_program.o
+ .data          0x00800060        0x0 ./SPI_program.o
+ .data          0x00800060        0x0 ./TIMERS_program.o
+ .data          0x00800060        0x0 ./UART_program.o
+ .data          0x00800060        0x0 ./application.o
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800060                . = ALIGN (0x2)
+                0x00800060                _edata = .
+                0x00800060                PROVIDE (__data_end, .)
+
+.bss            0x00800060       0x19
+                0x00800060                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o
+ .bss           0x00800060        0x0 ./BluetoothModule.o
+ .bss           0x00800060        0x0 ./CommunicationLinker.o
+ .bss           0x00800060        0x0 ./DIO_program.o
+ .bss           0x00800060        0x0 ./EXTI_program.o
+ .bss           0x00800060        0x0 ./GIE_program.o
+ .bss           0x00800060        0x0 ./PORT_program.o
+ .bss           0x00800060        0x0 ./SPI_program.o
+ .bss           0x00800060        0x0 ./TIMERS_program.o
+ .bss           0x00800060        0x0 ./UART_program.o
+ .bss           0x00800060        0x0 ./application.o
+ .bss           0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ .bss.EXTI_pvCallBackFunc
+                0x00800060        0x6 ./EXTI_program.o
+ .bss.TIMER_pvCallBackFunc
+                0x00800066        0x2 ./TIMERS_program.o
+ .bss.Counter   0x00800068        0x4 ./TIMERS_program.o
+                0x00800068                Counter
+ .bss.FirstTime
+                0x0080006c        0x4 ./TIMERS_program.o
+                0x0080006c                FirstTime
+ .bss.SecondTime
+                0x00800070        0x4 ./TIMERS_program.o
+                0x00800070                SecondTime
+ .bss.ThirdTime
+                0x00800074        0x4 ./TIMERS_program.o
+                0x00800074                ThirdTime
+ .bss.Flag      0x00800078        0x1 ./TIMERS_program.o
+                0x00800078                Flag
+ *(COMMON)
+                0x00800079                PROVIDE (__bss_end, .)
+                0x00001214                __data_load_start = LOADADDR (.data)
+                0x00001214                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800079        0x0
+                0x00800079                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800079                PROVIDE (__noinit_end, .)
+                0x00800079                _end = .
+                0x00800079                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x1d28
+ *(.stab)
+ .stab          0x00000000      0x21c ./BluetoothModule.o
+ .stab          0x0000021c      0x1b0 ./CommunicationLinker.o
+                                0x234 (size before relaxing)
+ .stab          0x000003cc      0x6c0 ./DIO_program.o
+                                0x744 (size before relaxing)
+ .stab          0x00000a8c      0x660 ./EXTI_program.o
+                                0x6e4 (size before relaxing)
+ .stab          0x000010ec      0x144 ./GIE_program.o
+                                0x1c8 (size before relaxing)
+ .stab          0x00001230      0x168 ./PORT_program.o
+                                0x1ec (size before relaxing)
+ .stab          0x00001398      0x1c8 ./SPI_program.o
+                                0x24c (size before relaxing)
+ .stab          0x00001560      0x408 ./TIMERS_program.o
+                                0x48c (size before relaxing)
+ .stab          0x00001968      0x24c ./UART_program.o
+                                0x2d0 (size before relaxing)
+ .stab          0x00001bb4      0x174 ./application.o
+                                0x21c (size before relaxing)
+
+.stabstr        0x00000000      0xa83
+ *(.stabstr)
+ .stabstr       0x00000000      0xa83 ./BluetoothModule.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(Control_MC.elf elf32-avr)
+LOAD linker stubs

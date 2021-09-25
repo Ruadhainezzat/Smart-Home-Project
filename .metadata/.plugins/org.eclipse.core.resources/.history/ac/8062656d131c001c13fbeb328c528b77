@@ -1,0 +1,6 @@
+#ifndef DAC_INTERFACE_H_
+#define DAC_INTERFACE_H_
+
+void DAC_u8SetAnalogVolt(u16 Copy_u16AnalogVolt);
+
+#endif

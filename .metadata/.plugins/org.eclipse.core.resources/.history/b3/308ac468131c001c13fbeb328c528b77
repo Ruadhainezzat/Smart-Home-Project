@@ -1,0 +1,282 @@
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+#include "ADC_interface.h"
+#include "ADC_private.h"
+#include "ADC_register.h"
+#include "ADC_config.h"
+
+/*Global variables for the asynchronous function to handle data to the ISR*/
+static u16* ADC_pu16ConversionResult= NULL;
+static void (*ADC_pvNotificationFunc)(void)= NULL;
+
+static u8* ADC_pu8ChannelArr = NULL;
+static u8 ADC_u8ChainSize =0;
+static u8 ADC_u8ChannelIndex=0;
+
+static u8 ADC_u8ISRState ;
+
+/*Global variable flag to hold the state of the ADC peripheral*/
+static u8 ADC_u8BusyFlag = IDLE;
+
+void ADC_voidInit(void)
+{
+	/*Set reference voltage: AVCC*/
+	SET_BIT(ADMUX, ADMUX_REFS0);
+	CLR_BIT(ADMUX, ADMUX_REFS1);
+
+#if ADC_u8_RESOLUTION == EIGHT_BIT
+	/*Activate left adjust*/
+	SET_BIT(ADMUX, ADMUX_ADLAR);
+
+#elif ADC_u8_RESOLUTION == TEN_BIT
+	CLR_BIT(ADMUX, ADMUX_ADLAR);
+#else
+#error "Wrong ADC_u8_RESOLUTION configuration option"
+#endif
+
+	/*Setting <pre>-scaler*/
+	ADCSRA &= PRESCALER_MASK;
+	ADCSRA |= ADC_u8_PRESCALER;
+
+	/*Peripheral enable*/
+	SET_BIT(ADCSRA,ADCSRA_ADEN);
+}
+
+u8 ADC_u8StartSingleConversionSynch(u8 Copy_u8Channel, u16* Copy_pu16Result)
+{
+	u8 Local_u8ErrorState= OK;
+	u32 Local_u32Counter=0;
+
+	if(Copy_pu16Result != NULL)
+	{
+		if(ADC_u8BusyFlag == IDLE)
+		{
+			/*Make the ADC busy*/
+			ADC_u8BusyFlag = BUSY;
+
+			/*Set the required channel*/
+			ADMUX &= CHANNEL_MASK;
+			ADMUX |= Copy_u8Channel;
+
+			/*Start conversion*/
+			SET_BIT(ADCSRA,ADCSRA_ADSC);
+
+			/*Wait (polling with blocking) until the conversion is complete or the timeout period is passed*/
+			while(((GET_BIT(ADCSRA,ADCSRA_ADIF))==0)  && (Local_u32Counter < ADC_u8_TIMEOUT_PERIOD))
+			{
+				Local_u32Counter++;
+			}
+
+			if(Local_u32Counter == ADC_u8_TIMEOUT_PERIOD)
+			{
+				/*Loop is broken because Timeout period is passed*/
+				Local_u8ErrorState = TIMEOUT_ERR;
+			}
+			else
+			{
+				/*Loop is broken because ADC conversion complete flag is raised*/
+
+				/*Clear the flag*/
+				SET_BIT(ADCSRA,ADCSRA_ADIF);
+
+#if ADC_u8_RESOLUTION == EIGHT_BIT
+				/*Assign the result*/
+				*Copy_pu16Result = ADCH;
+#elif ADC_u8_RESOLUTION == TEN_BIT
+				*Copy_pu16Result = ADC;
+
+#endif
+
+				/*Make the ADC Idle again*/
+				ADC_u8BusyFlag = IDLE;
+			}
+		}
+		else
+		{
+			/*ADC is busy*/
+			Local_u8ErrorState = BUSY_ERR;
+		}
+	}
+	else
+	{
+		Local_u8ErrorState = NULL_POINTER;
+	}
+
+	return Local_u8ErrorState;
+}
+
+u8 ADC_u8StartSingleConversionAsynch(u8 Copy_u8Channel, u16* Copy_pu16Result, void (*Copy_pvNotificationFunc)(void))
+{
+	u8 Local_u8ErrorState=OK;
+
+	if((Copy_pu16Result == NULL) || (Copy_pvNotificationFunc == NULL))
+	{
+		Local_u8ErrorState = NULL_POINTER;
+	}
+	else
+	{
+		if (ADC_u8BusyFlag == IDLE)
+		{
+			/*ADC is now busy*/
+			ADC_u8BusyFlag = BUSY;
+
+			/*ISR state shall be equal to single conversion asynchronous*/
+			ADC_u8ISRState = SINGLE_CONVERSION;
+
+			/*Set the required channel*/
+			ADMUX &= CHANNEL_MASK;
+			ADMUX |= Copy_u8Channel;
+
+			/*Start conversion*/
+			SET_BIT(ADCSRA,ADCSRA_ADSC);
+
+			/*Enable the ADC conversion complete interrupt enable*/
+			SET_BIT(ADCSRA, ADCSRA_ADIE);
+
+			/*Initialize the result pointer globally*/
+			ADC_pu16ConversionResult = Copy_pu16Result;
+
+			/*Initialize the notification function address globally*/
+			ADC_pvNotificationFunc = Copy_pvNotificationFunc;
+		}
+		else
+		{
+			/*Error of ADC being busy*/
+			Local_u8ErrorState = BUSY_ERR;
+		}
+	}
+
+	return Local_u8ErrorState;
+}
+
+u8 ADC_u8StartChainConversionAsynch(ADC_ChainConfig_t* Copy_Chain)
+{
+	u8 Local_u8ErrorState = OK;
+
+	if(Copy_Chain != NULL)
+	{
+		if((Copy_Chain -> ChannelArr != NULL) && (Copy_Chain -> ResultArr != NULL) && (Copy_Chain -> NotificationFunc != NULL))
+		{
+			/*Check if ADC is available(Idle)*/
+			if(ADC_u8BusyFlag == IDLE)
+			{
+				/*ADC is now busy*/
+				ADC_u8BusyFlag = BUSY;
+
+				/*ISR state shall be equal to chain conversion asynchronous*/
+				ADC_u8ISRState = CHAIN_CONVERSION;
+
+				/*Initialize the chain data globally*/
+				ADC_pu8ChannelArr = Copy_Chain -> ChannelArr;
+				ADC_pu16ConversionResult = Copy_Chain ->ResultArr;
+				ADC_u8ChainSize = Copy_Chain -> ChainSize;
+				ADC_pvNotificationFunc = Copy_Chain ->NotificationFunc;
+				ADC_u8ChannelIndex = 0;
+
+				/*Set first channel conversion*/
+				ADMUX &= CHANNEL_MASK;
+				ADMUX |= ADC_pu8ChannelArr[0];
+
+				/*Start conversion*/
+				SET_BIT(ADCSRA,ADCSRA_ADSC);
+
+				/*enable conversion complete interrupt*/
+				SET_BIT(ADCSRA, ADCSRA_ADIE);
+			}
+			else
+			{
+				Local_u8ErrorState = BUSY_ERR;
+			}
+		}
+		else
+		{
+			Local_u8ErrorState = NULL_POINTER;
+		}
+	}
+	else
+	{
+		Local_u8ErrorState=NULL_POINTER;
+	}
+
+	return Local_u8ErrorState;
+}
+
+void __vector_16 (void)  __attribute__((signal));
+void __vector_16 (void)
+{
+	/*Check the source of the ISR whether it comes from single conversion or chain conversion*/
+	if(ADC_u8ISRState == SINGLE_CONVERSION)
+	{
+		/*ISR comes from single conversion asynchronous*/
+
+		/*Disable the ADC conversion complete interrupt enable*/
+		CLR_BIT(ADCSRA, ADCSRA_ADIE);
+
+		/*ADC is now Idle*/
+		ADC_u8BusyFlag = IDLE;
+
+		/*read the conversion result*/
+#if ADC_u8_RESOLUTION == EIGHT_BIT
+		*ADC_pu16ConversionResult = ADCH;
+#elif ADC_u8_RESOLUTION == TEN_BIT
+		*ADC_pu16ConversionResult = ADC;
+
+#endif
+
+		/*Invoke the callback notification function*/
+		if(ADC_pvNotificationFunc != NULL)
+		{
+			ADC_pvNotificationFunc();
+		}
+		else
+		{
+			/*Do nothing*/
+		}
+	}
+	else
+	{
+		/*ISR comes from chain conversion asynchronous*/
+		/*Read the current conversion result*/
+#if ADC_u8_RESOLUTION == EIGHT_BIT
+		ADC_pu16ConversionResult[ADC_u8ChannelIndex] = ADCH;
+#elif ADC_u8_RESOLUTION == TEN_BIT
+		ADC_pu16ConversionResult[ADC_u8ChannelIndex] = ADC;
+
+#endif
+
+		/*Increment the current conversion index*/
+		ADC_u8ChannelIndex++;
+
+		/*Check if the chain is finished*/
+		if(ADC_u8ChannelIndex == ADC_u8ChainSize)
+		{
+			/*chain is finished*/
+			/*ADC is now IDLE*/
+			ADC_u8BusyFlag = IDLE;
+
+			/*Disable the conversion complete interrupt*/
+			CLR_BIT(ADCSRA, ADCSRA_ADIE);
+
+			/*Invoke the callback notification function*/
+			if(ADC_pvNotificationFunc != NULL)
+			{
+				ADC_pvNotificationFunc();
+			}
+			else
+			{
+				/*Do nothing*/
+			}
+
+		}
+		else
+		{
+			/*Chain is not finished , set the next channel*/
+			ADMUX &= CHANNEL_MASK;
+			ADMUX |= ADC_pu8ChannelArr[ADC_u8ChannelIndex];
+
+			/*Start conversion*/
+			SET_BIT(ADCSRA,ADCSRA_ADSC);
+		}
+	}
+}

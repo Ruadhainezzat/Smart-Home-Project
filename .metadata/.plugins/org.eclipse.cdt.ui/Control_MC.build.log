@@ -1,0 +1,85 @@
+23:45:34 **** Incremental Build of configuration Debug for project Control_MC ****
+make all 
+Building file: ../BluetoothModule.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"BluetoothModule.d" -MT"BluetoothModule.o" -c -o "BluetoothModule.o" "../BluetoothModule.c"
+Finished building: ../BluetoothModule.c
+ 
+Building file: ../CommunicationLinker.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"CommunicationLinker.d" -MT"CommunicationLinker.o" -c -o "CommunicationLinker.o" "../CommunicationLinker.c"
+../CommunicationLinker.c: In function 'Comm_Init':
+../CommunicationLinker.c:10: warning: implicit declaration of function 'SPI_voidInitialize'
+../CommunicationLinker.c: In function 'Comm_SendData':
+../CommunicationLinker.c:22: warning: implicit declaration of function 'SPI_u8Transiver'
+Finished building: ../CommunicationLinker.c
+ 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EXTI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"EXTI_program.d" -MT"EXTI_program.o" -c -o "EXTI_program.o" "../EXTI_program.c"
+Finished building: ../EXTI_program.c
+ 
+Building file: ../GIE_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"GIE_program.d" -MT"GIE_program.o" -c -o "GIE_program.o" "../GIE_program.c"
+Finished building: ../GIE_program.c
+ 
+Building file: ../PORT_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"PORT_program.d" -MT"PORT_program.o" -c -o "PORT_program.o" "../PORT_program.c"
+Finished building: ../PORT_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../TIMERS_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"TIMERS_program.d" -MT"TIMERS_program.o" -c -o "TIMERS_program.o" "../TIMERS_program.c"
+Finished building: ../TIMERS_program.c
+ 
+Building file: ../UART_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"UART_program.d" -MT"UART_program.o" -c -o "UART_program.o" "../UART_program.c"
+Finished building: ../UART_program.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: implicit declaration of function 'PORT_voidInit'
+Finished building: ../application.c
+ 
+Building target: Control_MC.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Control_MC.map -mmcu=atmega16 -o "Control_MC.elf"  ./BluetoothModule.o ./CommunicationLinker.o ./DIO_program.o ./EXTI_program.o ./GIE_program.o ./PORT_program.o ./SPI_program.o ./TIMERS_program.o ./UART_program.o ./application.o   
+Finished building target: Control_MC.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Control_MC.elf  >"Control_MC.lss"
+Finished building: Control_MC.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 Control_MC.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    4628 bytes (28.2% Full)
+(.text + .data + .bootloader)
+
+Data:         25 bytes (2.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+23:45:42 Build Finished. 0 errors, 3 warnings. (took 8s.177ms)
+

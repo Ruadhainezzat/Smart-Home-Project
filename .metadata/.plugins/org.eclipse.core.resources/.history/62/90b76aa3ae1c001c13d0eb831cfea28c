@@ -1,0 +1,41 @@
+
+#include "SPI_interface.h"
+#include "UART_interface.h"
+#include <avr/io.h>
+int main() {
+	DDRC = 0xFF;
+	/*
+	 * Local variable to store the upcoming data
+	 */
+	unsigned char data = 0;
+
+	/*
+	 * Init the USART Module
+	 */
+	USART_voidInit();
+	/*
+	 * Init the SPI Module as Master
+	 */
+	SS_PIN_DIRECTION_REGISTER = SS_PIN_DIRECTION_REGISTER | (ONE<<SS_PIN_NUMBER);
+	MOSI_PIN_DIRECTION_REGISTER = MOSI_PIN_DIRECTION_REGISTER | (ONE<<MOSI_PIN_NUMBER);
+	MISO_PIN_DIRECTION_REGISTER = MISO_PIN_DIRECTION_REGISTER & ~(ONE<<MISO_PIN_NUMBER);
+	SCK_PIN_DIRECTION_REGISTER = SCK_PIN_DIRECTION_REGISTER | (ONE<<SCK_PIN_NUMBER);
+
+	SPI_voidInitialize(1);
+
+
+	while (1) {
+
+		/*
+		 * Recieve the data from the bluetooth module via USART
+		 */
+		data = USART_voidReceiveData();
+		PORTC = data;
+		/*
+		 * Send the data to the sink MC via SPI
+		 */
+		data = SPI_u8Transiver(data);
+
+	}
+	return 0;
+}

@@ -1,0 +1,24 @@
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+#include "SPI_interface.h"
+
+int main (){
+char data = 0;
+DDRC = 0xFF;
+SS_PIN_DIRECTION_REGISTER = SS_PIN_DIRECTION_REGISTER | (ONE<<SS_PIN_NUMBER);
+MOSI_PIN_DIRECTION_REGISTER = MOSI_PIN_DIRECTION_REGISTER | (ONE<<MOSI_PIN_NUMBER);
+MISO_PIN_DIRECTION_REGISTER = MISO_PIN_DIRECTION_REGISTER & ~(ONE<<MISO_PIN_NUMBER);
+SCK_PIN_DIRECTION_REGISTER = SCK_PIN_DIRECTION_REGISTER | (ONE<<SCK_PIN_NUMBER);
+USART_voidInit();
+SPI_voidInitialize(1);
+while(1){
+
+	data = USART_voidReceiveData();
+
+	data =  SPI_u8Transiver(data);
+	PORTC = data;
+}
+	return 0;
+}
